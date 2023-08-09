@@ -1,0 +1,98 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hii",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hey, hii!",
+          "Hello, How can I help you?",
+          "Hello, thanks for asking, I'm doing good",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]   
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kind of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?",
+          "Do u take only cash?",
+          "Do u accept phonepay or Gpay?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard, Paypal and phonepay",
+          "We accept most major credit cards, Paypal and phonepay"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "Is tea or coffe avaible!",
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Yes, do you want to order?",
+          "Delivery takes 30-45 mins",
+          "Delivery takes 20-40 mins",
+          "Delivery takes 15-30 mins"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "Say something funny!"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "Why did the coffee file a police report? It got mugged.",
+          "What do you call a sad cup of coffee? Depresso.",
+          "Why did the tomato turn red? Because it saw the salad dressing!",
+          "What do you call a fake noodle? An impasta."
+        ]
+      }
+    ]
+  }
